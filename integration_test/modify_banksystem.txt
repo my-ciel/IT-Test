@@ -1,0 +1,14 @@
+from bank_account import BankAccount  
+
+class BankSystem:
+    def __init__(self):
+        self.accounts = []
+
+    def add_account(self, account: BankAccount):
+        self.accounts.append(account)
+    
+    def get_total_balance(self):
+        total = 0
+        for acc in self.accounts:
+            total += acc.get_balance()
+        return total
