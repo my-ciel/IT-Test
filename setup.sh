@@ -22,8 +22,5 @@ mv IT-Test/integration_test /home/ubuntu/
 mv IT-Test/test /home/ubuntu/
 mv IT-Test/00-installer-config.yaml /home/ubuntu/.
 
-echo "Removing IT-Test folder..."
-rm -rf IT-Test
-
 echo "Setup complete!"
 
