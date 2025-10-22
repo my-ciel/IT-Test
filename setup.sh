@@ -10,7 +10,6 @@ echo "Moving unit_test and integration_test folders to /home/ubuntu..."
 mv IT-Test/unit_test /home/ubuntu/
 mv IT-Test/integration_test /home/ubuntu/
 mv IT-Test/test /home/ubuntu/
-mv IT-Test/00-installer-config.yaml /home/ubuntu/.
 
 echo "Setup complete!"
 echo "Checking Python version..."
